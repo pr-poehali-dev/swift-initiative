@@ -19,19 +19,22 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/2c0a80ef-864f-4e3a-a193-067e8fac6dc7/files/e5c566d4-a46d-43e3-8682-12b38eda2f59.jpg"
+          alt="Столовая с горой грязной посуды"
           className="w-full h-full object-cover"
         />
       </motion.div>
 
       <div className="relative z-10 text-center text-white">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 drop-shadow-lg">
+          БАБУШКА ЮЛЯ
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90 drop-shadow">
+          Помоги бабушке Юле справиться с горой грязной посуды в столовой!
         </p>
+        <button className="mt-8 bg-white text-black px-8 py-3 text-sm uppercase tracking-widest font-bold hover:bg-yellow-300 transition-colors duration-300 cursor-pointer">
+          Играть сейчас
+        </button>
       </div>
     </div>
   );
